@@ -1,0 +1,24 @@
+Package: pgfuns
+Title: PG user defined functions
+Version: 0.0.0.9000
+Authors@R: 
+    person("Patrik", "Galeta", , "galetap@gmail.com", role = c("aut", "cre"))
+Description: PG user defined functions.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    dbplyr,
+    dplyr,
+    ggplot2,
+    magrittr,
+    purrr,
+    stats,
+    tibble,
+    tidyr,
+    tidyselect,
+    utils
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
