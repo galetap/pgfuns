@@ -4,9 +4,10 @@
 
 theme_PG <- function (base_size = 7, base_col = "gray30", base_family = "", base_face = "plain") {
   half_line <- base_size/2
-  theme(line = element_line(colour = base_col, size = 0.5, linetype = 1,
+  theme(line = element_line(colour = base_col, linewidth = 0.5, linetype = 1,
                             lineend = "butt"), 
-        rect = element_rect(fill = "white", colour = base_col, size = 0.5, linetype = 1),
+        rect = element_rect(fill = "white", colour = base_col,
+                            linewidth = 0.5, linetype = 1),
         text = element_text(family = base_family, face = base_face, 
                             colour = base_col, size = base_size, lineheight = 0.9, 
                             hjust = 0.5, vjust = 0.5, angle = 0, 
